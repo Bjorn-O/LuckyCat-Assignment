@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>FlappyBird</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <canvas id="backGroundLayer" style="z-index: 1">
 
+    </canvas>
+    <canvas id ="objectLayer" style="z-index: 2">
+
+    </canvas>
+    <canvas id="playerLayer" style="z-index: 3">
+
+    </canvas>
+    <script src="./classes/Player.js"></script>
+    <script src="./classes/GameObject.js"></script>
+    <script src="classes/GameWindow.js"></script>
+    <script src="./classes/MathFunc.js"></script>
+    <script src="game.js"></script>
 </body>
 </html>
